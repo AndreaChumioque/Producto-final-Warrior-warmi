@@ -10,8 +10,6 @@ function begin() {
   var selectLocal = document.getElementById('local');
   var selectPromo = document.getElementById('promo');
   var selectSprint = document.getElementById('sprint');
-  // var currentLocal = selectLocal.value;
-  // var currentPromo = selectPromo.value;
 
   selectLocal.addEventListener('change', fillPromos);
   document.addEventListener('change', fillSprints);
